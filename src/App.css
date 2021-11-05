@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+ .h-80vh {
+   height:63vh;
+ }
+}
