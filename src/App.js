@@ -68,20 +68,20 @@ function App() {
   return (
     <div className="App container mx-auto">
       <div className="date flex mx-auto w-60 justify-between mt-4 items-center shadow mb-4">
-        <button
+      <button
           className="w-8 h-8 bg-black text-white hover:bg-gray-700"
-          onClick={handleIncrement}
+          onClick={handleDecrement}
         >
-          +
+          -
         </button>{' '}
         <div className="currentdate font-bold">
           {moment(currentDate).format('ddd Do MMM YYYY')}
         </div>
         <button
           className="w-8 h-8 bg-black text-white hover:bg-gray-700"
-          onClick={handleDecrement}
+          onClick={handleIncrement}
         >
-          -
+          +
         </button>{' '}
       </div>
       <h2 className="text-center">
